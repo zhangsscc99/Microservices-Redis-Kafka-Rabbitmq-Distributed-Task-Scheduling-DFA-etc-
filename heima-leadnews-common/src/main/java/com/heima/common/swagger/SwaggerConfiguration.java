@@ -19,6 +19,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 //前身是swagger。前身swagger-bootstrap-ui 取名kni4j是希望它能像一把匕首一样小巧，轻量，并且功能强悍。
 //swagger可以在线调试api。
 //knife4j可以离线文档。个性化配置。
+
+//app端网关。
+//授权 登录 限流 日志。 网关然后才有微服务。
+//做一个过滤。做路由操作。
+//
 public class SwaggerConfiguration {
 
    @Bean

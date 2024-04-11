@@ -15,6 +15,19 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
+
+
+
+//网关有跨域配置和注册中心配置。
+//服务配置。  路由配置。
+//认证过滤器 校验当前token。
+//请求到达网关。
+//判断是否健全。  jwt工具类校验一下。认证权限一定要够。
+//路由到微服务去实现一下。
+
+//获取request和response对象
+//判断是否是登录
+
 @Component
 @Slf4j
 public class AuthorizeFilter implements Ordered, GlobalFilter {
