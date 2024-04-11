@@ -10,6 +10,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 @MapperScan("com.heima.user.mapper")
 //集成了discovery client
+//
 public class UserApplication {
 
     public static void main(String[] args) {

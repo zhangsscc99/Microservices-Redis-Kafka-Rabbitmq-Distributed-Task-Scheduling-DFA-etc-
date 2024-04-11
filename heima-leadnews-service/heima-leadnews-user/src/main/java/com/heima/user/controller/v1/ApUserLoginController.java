@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 //版本号 方便做配置
+//bug
 @RestController
 @RequestMapping("/api/v1/login")
 @Api(value = "app端用户登录",tags = "app端用户登录")
