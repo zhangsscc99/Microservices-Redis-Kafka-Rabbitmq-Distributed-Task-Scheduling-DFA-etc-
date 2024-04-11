@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 //bug
 //接口文档需要多更新
 //swagger 在线接口文档。
+//接口的文档在线自动生成。降低后端开发人员编写接口文档的负担。
+//功能测试。  前后端分离开发更加方便。
 @RestController
 @RequestMapping("/api/v1/login")
 @Api(value = "app端用户登录",tags = "app端用户登录")
