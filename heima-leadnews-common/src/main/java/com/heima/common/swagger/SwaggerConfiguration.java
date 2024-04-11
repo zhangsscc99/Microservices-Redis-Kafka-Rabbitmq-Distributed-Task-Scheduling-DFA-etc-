@@ -13,6 +13,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
+//swagger是需要配置的
+//复制粘贴配置文件即可。
+//为java mvc框架集成swagger生成api文档 增强解决方案。
+//前身是swagger。前身swagger-bootstrap-ui 取名kni4j是希望它能像一把匕首一样小巧，轻量，并且功能强悍。
+//
 public class SwaggerConfiguration {
 
    @Bean
