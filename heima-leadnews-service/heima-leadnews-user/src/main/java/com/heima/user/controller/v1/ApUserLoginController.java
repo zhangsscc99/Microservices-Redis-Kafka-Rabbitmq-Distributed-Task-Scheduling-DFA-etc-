@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 //版本号 方便做配置
 //bug
+//接口文档需要多更新
+//swagger 在线接口文档。
 @RestController
 @RequestMapping("/api/v1/login")
 @Api(value = "app端用户登录",tags = "app端用户登录")
